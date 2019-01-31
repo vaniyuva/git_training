@@ -9,6 +9,8 @@ public class SeleniumCommands {
 		// TODO Auto-generated method stub
 	WebDriver driver= new ChromeDriver();
 
+System.out.println("hi");
+
 	}
 
 }
