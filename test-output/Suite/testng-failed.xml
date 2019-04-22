@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="Assignments_Edureka.Sel_mod9_assign_Edureka_DDT_framework">
+        <methods>
+          <include name="login" invocation-numbers="0"/>
+          <include name="logout"/>
+          <include name="openBlogs"/>
+          <include name="quit"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- Assignments_Edureka.Sel_mod9_assign_Edureka_DDT_framework -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

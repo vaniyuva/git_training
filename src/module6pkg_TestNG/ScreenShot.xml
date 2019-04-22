@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="ScreenShot" >
+	<test name=" ScreenShot">
+				<classes>
+			<class name="module6pkg_TestNG.Screen_Shot"></class>
+		</classes>
+	</test>
+	
+</suite>

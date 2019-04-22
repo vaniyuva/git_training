@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Grouping Example]">
+  <test thread-count="5" name="WebSiteTest(failed)">
+    <groups>
+      <run>
+        <include name="Start"/>
+        <include name="Hotels"/>
+        <include name="vacation"/>
+        <exclude name="Home"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="module6pkg_TestNG.Grouping">
+        <methods>
+          <include name="Cruisespage"/>
+          <include name="Vacationspage"/>
+        </methods>
+      </class> <!-- module6pkg_TestNG.Grouping -->
+    </classes>
+  </test> <!-- WebSiteTest(failed) -->
+</suite> <!-- Failed suite [Grouping Example] -->

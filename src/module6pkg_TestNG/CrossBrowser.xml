@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Parameterization -CrossBrowser Chrome/Firefox/IE">
+	<test name=" Chrome for Google.com">
+		<parameter name = "B" value="chrome"></parameter>
+		<classes>
+			<class name="module6pkg_TestNG.CrossBrowser"></class>
+		</classes>
+	</test>
+	<test name="Firefox for Google.com">
+		<parameter name = "B" value="firefox"></parameter>
+		<classes>
+			<class name="module6pkg_TestNG.CrossBrowser"></class>
+		</classes>
+	</test>
+	<test name="IE for Google.com">
+		<parameter name = "B" value="IE"></parameter>
+		<classes>
+			<class name="module6pkg_TestNG.CrossBrowser"></class>
+		</classes>
+	</test>
+	
+</suite>

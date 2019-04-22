@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Mod7_Selenium_Grid" >
+	<test name=" Mod7_Grid_Test">
+				<classes>
+			<class name="module7pkg_Grid_IDE.GridExample"></class>
+		</classes>
+	</test>
+	
+</suite>

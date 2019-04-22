@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Mod6_Assign_Testcase_Edureka Login]">
+  <test thread-count="5" name=" Edureka_Login_Test(failed)">
+    <classes>
+      <class name="Assignments_Edureka.Sel_mod6_assign_testcase1">
+        <methods>
+          <include name="openURL"/>
+          <include name="search"/>
+          <include name="quit"/>
+          <include name="logout"/>
+          <include name="login"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- Assignments_Edureka.Sel_mod6_assign_testcase1 -->
+    </classes>
+  </test> <!--  Edureka_Login_Test(failed) -->
+</suite> <!-- Failed suite [Mod6_Assign_Testcase_Edureka Login] -->

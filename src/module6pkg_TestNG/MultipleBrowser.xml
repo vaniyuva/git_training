@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="parameterization-MultipleBrowser Chrome/Firefox/IE">
+	<test name=" Chrome 1">
+		<parameter name = "B" value="chrome"></parameter>
+		<classes>
+			<class name="module6pkg_TestNG.MultipleBrowser"></class>
+		</classes>
+	</test>
+	<test name="Chrome 2">
+		<parameter name = "B" value="chrome"></parameter>
+		<classes>
+			<class name="module6pkg_TestNG.MultipleBrowser"></class>
+		</classes>
+	</test>
+	<test name="chrome 3">
+		<parameter name = "B" value="chrome"></parameter>
+		<classes>
+			<class name="module6pkg_TestNG.MultipleBrowser"></class>
+		</classes>
+	</test>
+	
+</suite>

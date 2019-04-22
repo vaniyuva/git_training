@@ -1,0 +1,18 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Grouping Example">
+	<test name="WebSiteTest">
+		<groups>
+			<run>
+				<include name="Start"></include>
+				<exclude name="Home"></exclude>
+				<include name="Hotels"></include>
+				<include name="vacation"></include>
+			
+			</run>
+		</groups>
+		<classes>
+			<class name="module6pkg_TestNG.Grouping"></class>
+		</classes>
+	</test>
+</suite>

@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Mod6_Assign_Testcase_Edureka signup" >
+	<test name=" Edureka_signup_Test">
+				<classes>
+			<class name="Assignments_Edureka.Sel_mod6_assign_SignUp_TestCase"></class>
+		</classes>
+	</test>
+	
+</suite>

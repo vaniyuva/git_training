@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ScreenShot]">
+  <test thread-count="5" name=" ScreenShot(failed)">
+    <classes>
+      <class name="module6pkg_TestNG.Screen_Shot">
+        <methods>
+          <include name="google"/>
+        </methods>
+      </class> <!-- module6pkg_TestNG.Screen_Shot -->
+    </classes>
+  </test> <!--  ScreenShot(failed) -->
+</suite> <!-- Failed suite [ScreenShot] -->

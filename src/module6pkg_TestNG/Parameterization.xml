@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="parameterization Example">
+	<test name="Chrome/Firefox for Google.com">
+		<parameter name = "B" value="firefox"></parameter>
+		<classes>
+			<class name="module6pkg_TestNG.Parameterization"></class>
+		</classes>
+	</test>
+</suite>

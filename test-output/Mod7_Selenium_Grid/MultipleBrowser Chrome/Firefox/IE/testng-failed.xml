@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [MultipleBrowser Chrome/Firefox/IE]">
+  <test thread-count="5" name="chrome 3(failed)">
+    <parameter name="B" value="IE"/>
+    <classes>
+      <class name="module6pkg_TestNG.MultipleBrowser">
+        <methods>
+          <include name="getURL"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- module6pkg_TestNG.MultipleBrowser -->
+    </classes>
+  </test> <!-- chrome 3(failed) -->
+</suite> <!-- Failed suite [MultipleBrowser Chrome/Firefox/IE] -->

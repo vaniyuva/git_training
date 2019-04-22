@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Facebook Register" >
+	<test name=" FB_Register_Test">
+				<classes>
+			<class name="module6pkg_TestNG.Facebook_register_testcase"></class>
+		</classes>
+	</test>
+	
+</suite>

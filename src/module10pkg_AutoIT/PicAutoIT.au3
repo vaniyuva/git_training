@@ -1,0 +1,5 @@
+ControlFocus("Open", "", "DirectUIHWND2")
+Sleep(3000)
+ControlSetText("Open", "", "Edit 1", "D:\Murali_Laptop_Backup\Niagara\IMG_4456.JPG")
+sleep(3000)
+ControlClick("Open", "&Open", "Button 1")

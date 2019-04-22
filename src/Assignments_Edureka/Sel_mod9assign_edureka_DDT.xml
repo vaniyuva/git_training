@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="false">
+  <test name="Test">
+    <classes>
+      <class name="Assignments_Edureka.Sel_mod9_assign_Edureka_DDT_framework"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

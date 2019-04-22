@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Mod7_Assign_Testcase_Flipkart" >
+	<test name=" Flipkart_Shopping_Test">
+				<classes>
+			<class name="Assignments_Edureka.Sel_mod7_assign_Flipkart_Screenshot"></class>
+		</classes>
+	</test>
+	
+</suite>

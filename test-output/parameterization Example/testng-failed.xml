@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [parameterization Example]">
+  <test thread-count="5" name="Chrome/Firefox for Google.com(failed)">
+    <parameter name="B" value="firefox"/>
+    <classes>
+      <class name="module6pkg_TestNG.Parameterization">
+        <methods>
+          <include name="getURL"/>
+          <include name="closeBrowser"/>
+          <include name="invokeBrowser"/>
+        </methods>
+      </class> <!-- module6pkg_TestNG.Parameterization -->
+    </classes>
+  </test> <!-- Chrome/Firefox for Google.com(failed) -->
+</suite> <!-- Failed suite [parameterization Example] -->
